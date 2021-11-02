@@ -1,0 +1,35 @@
+.tag-container {
+    margin-top: 10px;
+}
+
+.tag-container .tag {
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+
+.tag .tag--close {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    color: #4BAAE1;
+    border: 1px solid #4BAAE1;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.tag .tag--close:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0 -25%;
+    width: 8px;
+    height: 1px;
+    border: 1px solid #4BAAE1;
+    border-bottom: none;
+    content: ''
+}
