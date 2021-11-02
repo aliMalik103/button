@@ -1,0 +1,116 @@
+.tag-selector {
+    margin-bottom: 20px;
+}
+
+.tag-selector.alert-selector {
+    margin-bottom: 8px;
+}
+
+.tag-selector .input-container {
+  background: #F4F7F9;
+}
+
+.tag-selector .search-input{
+    position: relative;
+}
+
+.tag-selector .search-input input[type=text]{
+  outline: none;
+  border: none;
+  padding: 8px 33px 8px 20px;
+  width: 90%;
+  background: #F4F7F9;
+}
+
+.tag-selector .search-input:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    content: '';
+}
+
+.tag-selector.pink .search-input:before {
+    background: pink;
+}
+
+.tag-selector.brown .search-input:before {
+    background: #663434;
+}
+
+.tag-selector.violet .search-input:before {
+     background: #5D2FBA;
+ }
+
+.tag-selector.light-violet .search-input:before {
+    background: #cc99fe;
+}
+
+.tag-selector.grey .search-input:before {
+    background: #D5D5D5;
+}
+
+.tag-selector.yellow .search-input:before {
+    background: #FEC03A;
+}
+
+.tag-selector.blue .search-input:before {
+    background: #059DE3;
+}
+
+.selector {
+    width: 100%;
+}
+
+.selector-option {
+    width: 100%;
+    padding: 6px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.tag-selector .selector-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    background: #F4F7F9;
+    color: #132348;
+    border: 1px solid #4BAAE1;
+    border-radius: 0;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.tag-selector  .selector-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tag-selector .selector-options li.highlighted {
+    background: #CADEF0;
+}
+
+.tag-selector .selector-options li.no-results {
+  padding: 6px;
+}
+
+.tag-selector .select-input::-webkit-input-placeholder {
+    color:#132348;
+    opacity: 1;
+}
+.tag-selector .select-input::-moz-placeholder {
+    color:#132348;
+    opacity: 1;
+}
+.tag-selector .select-input:-moz-placeholder {
+    color:#132348;
+    opacity: 1;
+}
+.tag-selector .select-input:-ms-input-placeholder {
+    color:#132348;
+    opacity: 1;
+}

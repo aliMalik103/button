@@ -167,7 +167,8 @@ class TagSelector extends React.Component {
     
     return (
       <div className={tagSelectorClasses.join(" ")} ref="tagselector">
-        <div className={"search-input"} ref={ref => this.selector = ref}>
+        <div className={"search-input"} style={{border:"solid",borderColor:this.props.borderColor?this.props.borderColor
+        :"gainsboro"}} ref={ref => this.selector = ref}>
           <div className="input-container" onClick={() => this.toggleDropDownState()}>
             <input type="text"
               disabled={this.props.disabled}

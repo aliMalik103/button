@@ -30,6 +30,7 @@ text:"ALi HAsnain"
 
 
      ]}
+     borderColor="black"
      placeholder="Choose Organizations"
     
     />
