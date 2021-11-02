@@ -1,7 +1,7 @@
 {
   "name": "@alihasnain/tag-selector",
-  "version": "1.0.0",
-  "description": "Two test React components",
+  "version": "1.0.1",
+  "description": "Searchable multi select tag slector",
   "author": "Ali Hasnain",
   "keywords": [
     "react",
